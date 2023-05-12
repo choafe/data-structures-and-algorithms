@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "C:\\msys64\\mingw64"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/MinGW/bin/gcc.exe"
+        }
+    ],
+    "version": 4
+}
