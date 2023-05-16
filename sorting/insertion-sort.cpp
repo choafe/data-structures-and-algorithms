@@ -10,29 +10,34 @@ Output: 1 2 3 4 5 6
 */
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-void recurInsertion() {
+void recurInsertion() 
+{
 
 }
 
-void iterInsertion() {
-
+void iterInsertion(vector<int>& arr) 
+{
 }
 
-void printSorted(int* arr, int size) {
-    for(int i = 0; i < size; i++) {
+void printSorted(vector<int>& arr) 
+{
+    for(int i = 0; i < arr.size(); i++) 
+    {
         cout << arr[i] << endl;
     }
 }
 
-int main(void) {
-    int arr1[6] = {5, 1, 6, 2, 4, 3};
-    int arr2[6] = {5, 1, 6, 2, 4, 3};
+int main(void) 
+{
+    vector<int> arr1 = {5, 1, 6, 2, 4, 3};
+    vector<int> arr2 = {5, 1, 6, 2, 4, 3};
 
-    printSorted(arr1, 6);
-    printSorted(arr2, 6);
+    printSorted(arr1);
+    printSorted(arr2);
  
     return 0;
 }
