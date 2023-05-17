@@ -22,7 +22,7 @@ def openFile(file_name):
             arr[a] = int(arr[a])
     return arr
 
-# Randomly generate file from built-in python libraries
+# Randomly generate file from built-in Python libraries
 def randomNum(size):
     arr = [0]*size
     for a in range(len(arr)):
