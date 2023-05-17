@@ -1,12 +1,11 @@
 # Random test of speed for python invocations from C++
 import random
 
-LARGE_NUM = 10000
+LARGE_NUM = 5000 # previous value: 10000
 
 # Bubble sort
 def bubbleSort(arr):
     n = len(arr)
-
     for i in range(n):
         for j in range(0, n-i-1):
             if arr[j] > arr[j+1]:
@@ -26,7 +25,7 @@ def openFile(file_name):
 def randomNum(size):
     arr = [0]*size
     for a in range(len(arr)):
-        arr[a] = random.randint(-10000,10000)
+        arr[a] = random.randint(-5000,5000)   # previous values: -10000,10000
 
     return arr
 
