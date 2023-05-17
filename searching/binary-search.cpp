@@ -43,3 +43,26 @@ int recurSearch(vector<int>& nums, int target)
     int l = 0, h = nums.size()-1, m = (h+l)/2;
     return binarySearch(nums, l, h, target);
 }
+
+// 5-17 Binary Search calls for determining the first bad number
+class Bad_Solution {
+private:
+    bool isBadVersion(int version);
+public:
+    int firstBadVersion(int n) {
+        long l = 1, h = n;
+        while(l <= h) {
+            long m = (h+l)/2;
+            bool prev = (h == 1) ? 0 : isBadVersion((int)m-1);
+
+            if(isBadVersion((int)m) && !prev)
+                return (int)m;
+
+            if(isBadVersion((int)m) && prev)
+                h = m-1;
+            else
+                l = m+1; 
+        }
+        return 0;
+    }
+};
