@@ -66,3 +66,21 @@ public:
         return 0;
     }
 };
+
+// 5-18 Binary Search calls for determing index of target or index of expected insertion (if target not found)
+int searchInsert(vector<int>& nums, int target) {
+    int l = 0, h = nums.size()-1, m;
+    while(l <= h) {
+        m = (h+l)/2;
+        if(nums[m] == target)
+            return m;
+        if(nums[m] > target)
+            h = m-1;
+        if(nums[m] < target)
+            l = m+1;
+    }
+    if(target > nums[m])
+        return m+1;
+    else
+        return m;
+}
