@@ -10,30 +10,24 @@ The right sub array will always be sorted (or you can proceed with a left sub ar
 
 using namespace std;
 
-void recurInsertion() 
-{
+void recurInsertion() {
 
 }
 
-void iterInsertion(vector<int>& arr) 
-{
+void iterInsertion(vector<int>& arr) {
 
 }
 
-void printSorted(vector<int>& arr) 
-{
-    for(int i = 0; i < arr.size(); i++) 
-    {
+void printSorted(vector<int>& arr) {
+    for(int i = 0; i < arr.size(); i++) {
         cout << arr[i] << ' ';
     }
     cout << endl;
 }
 
 // Driver code for testing and visualizing implementation of code
-int main(void) 
-{
+int main(void) {
     vector<int> arr1 = {5, 1, 6, 2, 4, 3};
-    
     printSorted(arr1);
  
     return 0;
