@@ -1,5 +1,5 @@
 /*
-5/11/2023
+5/18/2023
 Insertion sorting algorithm
 Compare first two objects and swap them if the left is larger than the right
 The right sub array will always be sorted (or you can proceed with a left sub array instead)
@@ -10,14 +10,6 @@ The right sub array will always be sorted (or you can proceed with a left sub ar
 
 using namespace std;
 
-void recurInsertion() {
-
-}
-
-void iterInsertion(vector<int>& arr) {
-
-}
-
 void printSorted(vector<int>& arr) {
     for(int i = 0; i < arr.size(); i++) {
         cout << arr[i] << ' ';
@@ -25,10 +17,15 @@ void printSorted(vector<int>& arr) {
     cout << endl;
 }
 
+void insertionSort(vector<int>& arr) {
+
+}
+
 // Driver code for testing and visualizing implementation of code
 int main(void) {
-    vector<int> arr1 = {5, 1, 6, 2, 4, 3};
-    printSorted(arr1);
+    vector<int> arr = {12, 11, 13, 5, 6};
+    insertionSort(arr);
+    printSorted(arr);
  
     return 0;
 }

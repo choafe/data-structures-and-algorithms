@@ -3,6 +3,11 @@
 Bubble sort algorithm
 Swaps adjacent elements if they are in the wrong order
 Pretty bad for large datasets considering its time complexity
+Logic:
+1. expected number of checks
+2. for each check, parse array this number of times to go through the unsorted array
+3. swap values that are not in order
+4. largest in unsorted is placed in order in sorted right subarray
 */
 
 #include <iostream>
