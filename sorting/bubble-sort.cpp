@@ -10,17 +10,12 @@ Logic:
 4. largest in unsorted is placed in order in sorted right subarray
 */
 
+#include "sorting.hpp"
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
- 
-void printSorted(vector<int>& arr) {
-    for(int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << ' ';
-    }
-    cout << endl;
-}
 
 // 5-18 Bubble sort
 vector<int> bubbleSort(vector<int>& nums) {
@@ -38,14 +33,4 @@ vector<int> bubbleSort(vector<int>& nums) {
         }   
     }
     return nums;
-}
-
-// Driver code for testing and visualizing implementation of code
-int main(void) {
-    vector<int> arr = {6, 3, 0, 5};
-    bubbleSort(arr);
-    cout << "Sorted Array: " << endl;
-    printSorted(arr);
-
-    return 0;
 }

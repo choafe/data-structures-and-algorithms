@@ -12,17 +12,12 @@ Bidirectional selection sort
 Switch between the smallest and largest value for sorting (faster)
 */
 
+#include "sorting.hpp"
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
- 
-void printSorted(vector<int>& arr) {
-    for(int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << ' ';
-    }
-    cout << endl;
-}
 
 // 5-18 Squares input vector and sorts by increasing order
 vector<int> sortedSquares(vector<int>& nums) {
@@ -67,22 +62,4 @@ vector<int> selectionSort(vector<int>& nums) {
         }
     }
     return nums;
-}
-
-// 5-18 Bidirection selection sort
-
-
-// Driver code for testing and visualizing implementation of code
-int main(void) {
-    vector<int> arr = {64, 25, 12, 22, 11};
-
-    // sortedSquares(arr);
-    // cout << "Sorted Array: " << endl;
-    // printSorted(arr);
-
-    selectionSort(arr);
-    cout << "Sorted Array: " << endl;
-    printSorted(arr);
- 
-    return 0;
 }
