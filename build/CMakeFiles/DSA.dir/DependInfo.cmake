@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/main.cpp" "CMakeFiles/DSA.dir/main.cpp.obj" "gcc" "CMakeFiles/DSA.dir/main.cpp.obj.d"
+  "C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/DSA.cpp" "CMakeFiles/DSA.dir/DSA.cpp.obj" "gcc" "CMakeFiles/DSA.dir/DSA.cpp.obj.d"
+  "C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/searching.cpp" "CMakeFiles/DSA.dir/searching.cpp.obj" "gcc" "CMakeFiles/DSA.dir/searching.cpp.obj.d"
+  "C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/sorting.cpp" "CMakeFiles/DSA.dir/sorting.cpp.obj" "gcc" "CMakeFiles/DSA.dir/sorting.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

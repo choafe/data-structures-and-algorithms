@@ -522,29 +522,77 @@ DSA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/build
 .PHONY : DSA/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+DSA.obj: DSA.cpp.obj
+.PHONY : DSA.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+DSA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/DSA.cpp.obj
+.PHONY : DSA.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+DSA.i: DSA.cpp.i
+.PHONY : DSA.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/main.cpp.i
-.PHONY : main.cpp.i
+DSA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/DSA.cpp.i
+.PHONY : DSA.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+DSA.s: DSA.cpp.s
+.PHONY : DSA.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/main.cpp.s
-.PHONY : main.cpp.s
+DSA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/DSA.cpp.s
+.PHONY : DSA.cpp.s
+
+searching.obj: searching.cpp.obj
+.PHONY : searching.obj
+
+# target to build an object file
+searching.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/searching.cpp.obj
+.PHONY : searching.cpp.obj
+
+searching.i: searching.cpp.i
+.PHONY : searching.i
+
+# target to preprocess a source file
+searching.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/searching.cpp.i
+.PHONY : searching.cpp.i
+
+searching.s: searching.cpp.s
+.PHONY : searching.s
+
+# target to generate assembly for a file
+searching.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/searching.cpp.s
+.PHONY : searching.cpp.s
+
+sorting.obj: sorting.cpp.obj
+.PHONY : sorting.obj
+
+# target to build an object file
+sorting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/sorting.cpp.obj
+.PHONY : sorting.cpp.obj
+
+sorting.i: sorting.cpp.i
+.PHONY : sorting.i
+
+# target to preprocess a source file
+sorting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/sorting.cpp.i
+.PHONY : sorting.cpp.i
+
+sorting.s: sorting.cpp.s
+.PHONY : sorting.s
+
+# target to generate assembly for a file
+sorting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA.dir\build.make CMakeFiles/DSA.dir/sorting.cpp.s
+.PHONY : sorting.cpp.s
 
 # Help Target
 help:
@@ -586,9 +634,15 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... DSA
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... DSA.obj
+	@echo ... DSA.i
+	@echo ... DSA.s
+	@echo ... searching.obj
+	@echo ... searching.i
+	@echo ... searching.s
+	@echo ... sorting.obj
+	@echo ... sorting.i
+	@echo ... sorting.s
 .PHONY : help
 
 

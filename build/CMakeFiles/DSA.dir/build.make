@@ -68,33 +68,65 @@ include CMakeFiles/DSA.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DSA.dir/flags.make
 
-CMakeFiles/DSA.dir/main.cpp.obj: CMakeFiles/DSA.dir/flags.make
-CMakeFiles/DSA.dir/main.cpp.obj: C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/main.cpp
-CMakeFiles/DSA.dir/main.cpp.obj: CMakeFiles/DSA.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA.dir/main.cpp.obj -MF CMakeFiles\DSA.dir\main.cpp.obj.d -o CMakeFiles\DSA.dir\main.cpp.obj -c C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\main.cpp
+CMakeFiles/DSA.dir/DSA.cpp.obj: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/DSA.cpp.obj: C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/DSA.cpp
+CMakeFiles/DSA.dir/DSA.cpp.obj: CMakeFiles/DSA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA.dir/DSA.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA.dir/DSA.cpp.obj -MF CMakeFiles\DSA.dir\DSA.cpp.obj.d -o CMakeFiles\DSA.dir\DSA.cpp.obj -c C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\DSA.cpp
 
-CMakeFiles/DSA.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\main.cpp > CMakeFiles\DSA.dir\main.cpp.i
+CMakeFiles/DSA.dir/DSA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/DSA.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\DSA.cpp > CMakeFiles\DSA.dir\DSA.cpp.i
 
-CMakeFiles/DSA.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\main.cpp -o CMakeFiles\DSA.dir\main.cpp.s
+CMakeFiles/DSA.dir/DSA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/DSA.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\DSA.cpp -o CMakeFiles\DSA.dir\DSA.cpp.s
+
+CMakeFiles/DSA.dir/sorting.cpp.obj: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/sorting.cpp.obj: C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/sorting.cpp
+CMakeFiles/DSA.dir/sorting.cpp.obj: CMakeFiles/DSA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSA.dir/sorting.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA.dir/sorting.cpp.obj -MF CMakeFiles\DSA.dir\sorting.cpp.obj.d -o CMakeFiles\DSA.dir\sorting.cpp.obj -c C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\sorting.cpp
+
+CMakeFiles/DSA.dir/sorting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/sorting.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\sorting.cpp > CMakeFiles\DSA.dir\sorting.cpp.i
+
+CMakeFiles/DSA.dir/sorting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/sorting.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\sorting.cpp -o CMakeFiles\DSA.dir\sorting.cpp.s
+
+CMakeFiles/DSA.dir/searching.cpp.obj: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/searching.cpp.obj: C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/searching.cpp
+CMakeFiles/DSA.dir/searching.cpp.obj: CMakeFiles/DSA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSA.dir/searching.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA.dir/searching.cpp.obj -MF CMakeFiles\DSA.dir\searching.cpp.obj.d -o CMakeFiles\DSA.dir\searching.cpp.obj -c C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\searching.cpp
+
+CMakeFiles/DSA.dir/searching.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/searching.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\searching.cpp > CMakeFiles\DSA.dir\searching.cpp.i
+
+CMakeFiles/DSA.dir/searching.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/searching.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\searching.cpp -o CMakeFiles\DSA.dir\searching.cpp.s
 
 # Object files for target DSA
 DSA_OBJECTS = \
-"CMakeFiles/DSA.dir/main.cpp.obj"
+"CMakeFiles/DSA.dir/DSA.cpp.obj" \
+"CMakeFiles/DSA.dir/sorting.cpp.obj" \
+"CMakeFiles/DSA.dir/searching.cpp.obj"
 
 # External object files for target DSA
 DSA_EXTERNAL_OBJECTS =
 
-DSA.exe: CMakeFiles/DSA.dir/main.cpp.obj
+DSA.exe: CMakeFiles/DSA.dir/DSA.cpp.obj
+DSA.exe: CMakeFiles/DSA.dir/sorting.cpp.obj
+DSA.exe: CMakeFiles/DSA.dir/searching.cpp.obj
 DSA.exe: CMakeFiles/DSA.dir/build.make
 DSA.exe: CMakeFiles/DSA.dir/linkLibs.rsp
 DSA.exe: CMakeFiles/DSA.dir/objects1.rsp
 DSA.exe: CMakeFiles/DSA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DSA.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\crynh\OneDrive\Documents\Github\data-structures-and-algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DSA.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSA.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
