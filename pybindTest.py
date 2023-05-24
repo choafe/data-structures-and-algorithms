@@ -46,7 +46,7 @@ vvv Driver code sampler
 '''
 if __name__ == "__main__":
     # 1. Open file
-    file_name = 'C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/python invocations/test.txt'
+    file_name = 'C:/Users/crynh/OneDrive/Documents/Github/data-structures-and-algorithms/python invocations/pybindTest.txt'
     arr1 = openFile(file_name)
 
     # 2. Random array of ints
